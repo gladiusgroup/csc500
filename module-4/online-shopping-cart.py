@@ -13,7 +13,13 @@ class ItemToPurchase:
 def get_validated_input(prompt_message, value_type):
     while True:
         try:
-            return value_type(input(prompt_message))
+            #Check for proper input type
+            value = value_type(input(prompt_message))
+            #Make sure it's not negative
+            if value < 0:
+                print("Please enter a non-negative number.")
+                continue
+            return value
         except ValueError:
             print("Invalid input. Please try again.")
 
