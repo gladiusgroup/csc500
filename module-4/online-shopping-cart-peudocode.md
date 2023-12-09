@@ -15,8 +15,9 @@
 
 ## Function: get_validated_input
 
-- prompts user for valid
+- prompts user for valid data
 - try-except to catch type conversion errors
+- check for negative numbers
 - return validated input
 
 - Parameters:
