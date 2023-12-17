@@ -1,2 +1,2 @@
 # csc500
-CSC500
+CSU Global CSC500
