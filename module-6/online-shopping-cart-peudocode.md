@@ -83,7 +83,7 @@
 
 6. Add the items from the list to the cart
 
-7. Call `print_menu
+7. Call `print_menu`
 
 ## Execution Flow
 
