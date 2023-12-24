@@ -135,7 +135,7 @@ def main():
 
     # Calculate the total cost and print it
     total_cost = sum(item.print_item_cost() for item in items)
-    print(f"Total: ${total_cost:.2f}")
+    print(f"\nTotal: ${total_cost:.2f}")
 
     # Add the items to the cart
     for item in items:
